@@ -1,0 +1,14 @@
+{% assign skills_section = site.data.data.sidebar.skill %}
+{% if skills_section %}
+<div class="skill-container container-block">
+
+  <h2 class="container-block-title">{{ skills_section.title }}</h2>
+  {% for category in skills_section.categories %}
+    <div class="skill-category">
+      <h5>{{ category.item }}:</h5>
+      <span>{{ category.skills | join: " / " }}</span>
+    </div>
+  {% endfor %}
+
+</div><!--//skill-container-->
+{% endif %}

@@ -3,263 +3,268 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Kecheng Yang
+  tagline: Data Engineer / BI Developer
+  avatar: photo.jpeg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+  # Sidebar links
+  email: kechengyang234@gmail.com
+  phone: 080 7082 0274
+  citizenship:
+  website: blog.webjeda.com #do not add http://
+  linkedin: kecheng-yang-1053b8ba
+  github: kechengyang
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf:
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  skill:
+    title: Skills
+    categories:
+      - item: Language
+        skills: ["Python", "SQL", "Shell", "Go", "Javascript"]
+      - item: DB/BigData
+        skills: ["HDFS", "Hive", "Spark", "Trino", "HBase", "Snowflake"]
+      - item: CI/CD
+        skills: ["Git", "Jenkins", "ArgoCD", "DroneCI", "Github Action"]
+      - item: ETL Tool
+        skills: ["Airflow", "SSIS", "Informatica"]
+      - item: BI Tool
+        skills: ["Tableau", "MicroStrategy", "Notebook"]
 
-        - idiom: French
-          level: Professional
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Professional
 
-        - idiom: Spanish
-          level: Professional
+      - idiom: Japanese
+        level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+      - idiom: French
+        level: intermediate
 
-        - item: Snowboarding
-          link:
+      - idiom: Chinese
+        level: Native
 
-        - item: Cooking
-          link:
+  # interests:
+  #   title: Interests
+  #   info:
+  #     - item: Soccer
+  #       link:
+
+  #     - item: Soccer
+  #       link:
+
+  #     - item: Cooking
+  #       link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+  title: Career Profile
+  summary: |
+    A Big Data Engineer and BI Developer with over 6 years of experience in Japan and Canada, specializing in ETL pipeline construction, DWH/Data Mart development, and Data Platform architecture. Skilled in translating complex business needs into scalable data solutions and providing decision-makers with actionable insights through BI reporting. Demonstrated ability to navigate dynamic project landscapes, ensuring data strategies align with business goals.
 education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Education
+  info:
+    - degree: MSc in Computer Science
+      university: Bishop's University
+      time: 2017 - 2019
+      details: |
+
+    - degree: BSc in Electronic Information Science and Technology
+      university: Beijing Information Science & Technology University
+      time: 2011 - 2015
+      details: |
 
 experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+  title: Experiences
+  info:
+    - role: Data Engineer
+      time: 2022/08 - Present
+      company: LY Corporation (ex-Line), Tokyo, Japan
+      details: |
+        **Data Product Management Team: Enterprise Data Management and Utilization Strategy**
+        - Formulated and executed a company-wide data utilization strategy, enhancing data access and compliance with information security and privacy policies.
+        - Managed application processes for data access, facilitating effective communication and collaboration with stakeholders across various departments, including service planners, developers, data scientists, and legal teams.
+        - Supported data analysis projects as needed, contributing to a culture of data-driven decision-making across the organization.
+        - Designed and implemented a centralized data mart for cross-service analysis, encompassing LINE messages, LINE Shopping, LINE Gifts, LINE Games, etc. Provided RFM (Recency, Frequency, Monetary) information and interest-based behavioral segmentation, enabling service departments to perform cross-analyses with aggregated data from other services. This significantly benefited marketing decisions by providing a comprehensive view without the need for additional analysis.
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        **Batch Pipeline Team: Codeless ETL Tool Development**
+        - Implement and maintain the internal codeless ETL tool based on Apache Airflow, enabling simplified user experiences through configuration YAML files and SQL scripts for automatic DAG generation. This innovation significantly reduced technical barriers for non-engineering users, enhancing productivity across 75 service accounts.
+        - Managed over 3.7k tasks on the platform, streamlining data processing and integration workflows within the company.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        **Data Platform Reliability Team: Data Platform Cost Allocation System**
+        - Initiated and directed the Data Platform Cost Allocation project, designing a system to accurately allocate costs of storage, Kubernetes, computing, and servers to departments utilizing the LINE data platform. This project was crucial for transparently demonstrating usage and costs, supporting budgeting and cost management efforts.
+        - Served as Project Manager&Scrum Master, capturing requirements from diverse stakeholders, leading sub-projects, designing backend data models, and developing insightful reports through Tableau & Notebook for evidence-based chargeback and cost-cutting measures.
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+    - role: Business Intelligence Developer
+      time: 2022/01 - 2022/07
+      company: Ubisoft, Montreal, Canada
+      details: |
+        Worked on the design, development, and maintenance of the enterprise Data Warehouse on Snowflake, facilitating internal reporting and analysis for various domains including Finance, Sales, Production, and Procurement. This role involved enhancing data integration and architectural solutions to support comprehensive analytics.
+        - Conducted impact analysis, participated in the data modeling process, and performed ETL and database performance analyses. Played a key role in identifying and enforcing technical best practices and coding standards within agile teams.
+        - Successfully migrated over 200 tables and stored procedures from Teradata to Snowflake, streamlining data management and operational efficiency.
+        - Facilitated data integration from diverse source systems (HDFS, AWS, Teradata, Mysql) and external sources like Unity API into Snowflake, enhancing data availability and decision-making capabilities.
+        - Supported Data Analysts in providing comprehensive reporting solutions. Notably, developed and implemented a data solution that aggregated and visualized information on the company’s devices (PCs, GPUs, memory, etc.) and software licenses. This initiative enabled the visualization of IT operation usage and costs, assisting the IT department in monitoring resources and achieving a 10% cost reduction.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - role: BI & Analyst Developer
+      time: 2019/07 - 2021/12
+      company: Global Excel Management Inc, Sherbrooke, Canada
+      details: |
+        - Orchestrated the designing, developing, and debugging of new or existing ETL pipe line & Reporting process to monitor daily bill, claim and payment transactions activities.
+        - Worked on SSIS and Azure Data Factory to integrate data of both on-prem and cloud and applied transformations rules to load to Landing Zone.
+        - Designed and implemented a data schedule and time-code data from the different entities as well as processing the data to provide a unified view of the platform.
+        - Built the OLAP cube on SSAS for dimensional modeling projects and upstream Power BI dashboard and Cognos reporting architecture.
+        - Collaborated with Product/Finance/Business teams to improve and maintain data quality and performance of Business Activity Monitoring jobs.
+        - Worked with stakeholders to understand business processes and translate them into functional and non-functional specifications for BI solutions.
+        - Strong connections with DevOps and Development teams to provide deployment, version control, QA & Production support for live applications.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - role: Creative Strategist
+      time: 2015/09 - 2016/09
+      company: Pico TBA Creative Network, Beijing, China
+      details: |
+        - Developed concepts and templates for creative deliverables, including digital media, events, exhibition and brand presentations for IT and car enterprises.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+# certifications:
+#   title: Certifications
+#   list:
+#     - name: CV Builder
+#       start: 2020
+#       end: 2021
+#       organization: Microsoft
+#       credentialid: 111-222
+#       credentialurl: www.google.com
+#       credentialname: Google
+#       details: |
+#         Details about cert. Lorem ipsum dolor sit amet, consectetur
+#         adipiscing elit.
+#         Nullam eget orci purus. Nullam ultrices neque nibh.
+#         Aenean fermentum, felis vulputate suscipit accumsan,
+#         sem enim bibendum augue, sed convallis arcu lacus at dui.
+#         Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#         Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#         Praesent venenatis erat non augue suscipit consectetur.
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#         Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+#         fringilla vel. Ut euismod, sem sed vulputate venenatis,
+#         justo diam viverra velit, sed rhoncus leo leo eu justo.
+#         Suspendisse placerat risus ante, sed porta nisi blandit at.
+#     - name: Git learning
+#       start: 2019
+#       end:
+#       organization: Microsoft
+#       credentialid: 111-222
+#       credentialurl: www.github.com
+#       credentialname: Github
+#       details: |
+#         Older certification. Lorem ipsum dolor sit amet, consectetur
+#         adipiscing elit.
+#         Nullam eget orci purus. Nullam ultrices neque nibh.
+#         Aenean fermentum, felis vulputate suscipit accumsan,
+#         sem enim bibendum augue, sed convallis arcu lacus at dui.
+#         Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+#         Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+#         Praesent venenatis erat non augue suscipit consectetur.
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# projects:
+#   title: Projects
+#   intro: >
+#     You can list your side projects in this
+#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   assignments:
+#     - title: Velocity
+#       link: "#hook"
+#       tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#     - title: DevStudio
+#       link: "#"
+#       tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#     - title: Tempo
+#       link: "#"
+#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+#     - title: Atom
+#       link: "#"
+#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#     - title: Delta
+#       link: "#"
+#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this
+#     section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#     Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#     - title: Tempo
+#       link: "#"
+#       tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#     - title: Atom
+#       link: "#"
+#       tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+#     - title: Delta
+#       link: "#"
+#       tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#     - title: The Art of Computer Programming
+#       link: "#"
+#       authors: Donald E. Knuth
+#       conference: Addison-Wesley, 1968
+
+#     - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#       link: "#"
+#       authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#       conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#     - title: A syntax directed compiler for Algol 60
+#       link: "#"
+#       authors: Edgar T. Irons
+#       conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills &amp; Proficiency
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  toolset:
+    - name: Python & Django
+      level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
+    - name: Javascript & jQuery
+      level: 98%
 
-      - name: Angular
-        level: 98%
+    - name: Angular
+      level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+    - name: HTML5 & CSS
+      level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+    - name: Ruby on Rails
+      level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+    - name: Sketch & Photoshop
+      level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Resume created by <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Kecheng Yang</a>
