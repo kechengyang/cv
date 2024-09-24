@@ -13,16 +13,11 @@ sidebar:
   avatar: photo.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: kechengyang234@gmail.com
-  phone: 080 7082 0274
+  email: dixiaoruu@gmail.com
+  phone: 873 200 7768
   citizenship:
-  website: kechengyang.github.io/cv
+  website: XIAORU-DI.github.io/cv
   linkedin: kecheng-yang-1053b8ba
-  github: kechengyang
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -32,23 +27,20 @@ sidebar:
     title: Skills
     categories:
       - item: Language
-        skills: ["Python", "SQL", "Shell", "Go", "Javascript"]
+        skills: ["Python", "SQL", "Shell"]
       - item: DB/BigData
-        skills: ["HDFS", "Hive", "Spark", "Trino", "HBase", "Snowflake"]
+        skills: ["HDFS", "Hive", "Spark", "HBase", "Snowflake"]
       - item: CI/CD
-        skills: ["Git", "Jenkins", "ArgoCD", "DroneCI", "Github Action"]
+        skills: ["Git", "Jenkins", "Github Action"]
       - item: ETL Tool
-        skills: ["Airflow", "SSIS", "Informatica"]
+        skills: ["Airflow", "SSIS", "Databricks"]
       - item: BI Tool
-        skills: ["Tableau", "MicroStrategy", "Notebook"]
+        skills: ["Tableau", "MicroStrategy", "PowerBI"]
 
   languages:
     title: Languages
     info:
       - idiom: English
-        level: Professional
-
-      - idiom: Japanese
         level: Professional
 
       - idiom: French
@@ -72,7 +64,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    A Big Data Engineer and BI Developer with over 6 years of experience in Japan and Canada, specializing in ETL pipeline construction, DWH/Data Mart development, and Data Platform architecture. Skilled in translating complex business needs into scalable data solutions and providing decision-makers with actionable insights through BI reporting. Demonstrated ability to navigate dynamic project landscapes, ensuring data strategies align with business goals.
+    A Big Data Engineer and BI Developer with over 6 years of experience in China and Canada, specializing in ETL pipeline construction, DWH/Data Mart development, and Data Platform architecture. Skilled in translating complex business needs into scalable data solutions and providing decision-makers with actionable insights through BI reporting. Demonstrated ability to navigate dynamic project landscapes, ensuring data strategies align with business goals.
 education:
   title: Education
   info:
@@ -83,7 +75,7 @@ education:
 
     - degree: BSc in Electronic Information Science and Technology
       university: Beijing Information Science & Technology University
-      time: 2011 - 2015
+      time: 2009 - 2013
       details: |
 
 experiences:
