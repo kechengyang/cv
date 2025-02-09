@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Test
-  tagline: Data Engineer / BI Developer
+  tagline: Data Engineer / BI Engineer
   avatar: photo.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -34,13 +34,13 @@ sidebar:
       - item: Language
         skills: ["Python", "SQL", "Shell", "Go", "Javascript"]
       - item: DB/BigData
-        skills: ["HDFS", "Hive", "Spark", "Trino", "HBase", "Snowflake"]
+        skills: ["Hadoop", "Spark", "Trino", "Snowflake", "Redshift", "MSSQL"]
       - item: CI/CD
         skills: ["Git", "Jenkins", "ArgoCD", "DroneCI", "Github Action"]
       - item: ETL Tool
-        skills: ["Airflow", "SSIS", "Informatica"]
+        skills: ["Airflow", "SSIS", "Informatica", "AWS Glue"]
       - item: BI Tool
-        skills: ["Tableau", "MicroStrategy", "Notebook"]
+        skills: ["Tableau", "MicroStrategy", "PowerBI"]
 
   languages:
     title: Languages
@@ -72,7 +72,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    A Big Data Engineer and BI Developer with over 6 years of experience in Japan and Canada, specializing in ETL pipeline construction, DWH/Data Mart development, and Data Platform architecture. Skilled in translating complex business needs into scalable data solutions and providing decision-makers with actionable insights through BI reporting. Demonstrated ability to navigate dynamic project landscapes, ensuring data strategies align with business goals.
+    A Big Data Engineer and BI Engineer with over 6 years of experience in Japan and Canada, specializing in ETL pipeline construction, DWH/Data Mart development, Data Platform architecture and BI reporting. Skilled in translating complex business needs into scalable data solutions and providing decision-makers with actionable insights A to Z. Adept at data governance, data product lifecycle management, and stakeholder engagement, with a strong focus on aligning data strategies with business goals. 
 education:
   title: Education
   info:
@@ -93,25 +93,30 @@ experiences:
       time: 2022/08 - Present
       company: LY Corporation (ex-Line), Tokyo, Japan
       details: |
+        **Data Platform Reliability Team: FinOps Product for Big Data Platform**
+        - Built and launched a comprehensive FinOps product for the big data platform, designed to accurately allocate costs of storage, Kubernetes, computing, Kafka Ingestion and infra servers to individual users and departments.
+        - Served as Product Manager, Scum Master and Engineer, overseeing the entire product lifecycle from ideation to deployment. Captured requirements from diverse stakeholders, ensuring the FinOps product met the financial and operational needs of different departments.
+        - Identified underutilized resources, notified users, and successfully reduced operational costs by 200 million yen.
+        - Guided the organization’s FY25 budget creation and supported the procurement of hardware based on data-driven insights.
+        - Enabled data-driven financial decision-making, leading to optimized resource utilization and cost savings across the organization. Fostered cross-functional collaboration, ensuring smooth communication between engineering, finance, and business teams.     
+        
         **Data Product Management Team: Enterprise Data Management and Utilization Strategy**
+        - Designed and implemented a centralized data mart for cross-service analysis, encompassing LINE messages, LINE Shopping, LINE Gifts, LINE Games, etc. 
+        - Provided RFM (Recency, Frequency, Monetary) information and interest-based behavioral segmentation, enabling service departments to perform cross-analyses with aggregated data from other services. This significantly benefited and speeded up marketing decisions by providing a comprehensive view without the need for additional analysis for 10+ departments.
         - Formulated and executed a company-wide data utilization strategy, enhancing data access and compliance with information security and privacy policies.
-        - Managed application processes for data access, facilitating effective communication and collaboration with stakeholders across various departments, including service planners, developers, data scientists, and legal teams.
-        - Supported data analysis projects as needed, contributing to a culture of data-driven decision-making across the organization.
-        - Designed and implemented a centralized data mart for cross-service analysis, encompassing LINE messages, LINE Shopping, LINE Gifts, LINE Games, etc. Provided RFM (Recency, Frequency, Monetary) information and interest-based behavioral segmentation, enabling service departments to perform cross-analyses with aggregated data from other services. This significantly benefited marketing decisions by providing a comprehensive view without the need for additional analysis.
-
+        - Managed application processes for data access, facilitating effective communication and collaboration with stakeholders across various departments, including marketing, engineers, Ads data scientists, and data governance teams.
+        - Defined KPIs and decomposed metrics to align with business objectives, enabling precise use segementation, user behavior tracking such as monthly active users, user ad click rate, pushed block rate, blocking rate, retention rate, etc.
+        - Designed and implemented Tableau dashboards to derive actionable insights, influenceing and accelerating strategic decision in marketing development. 
+        
         **Batch Pipeline Team: Codeless ETL Tool Development**
         - Implement and maintain the internal codeless ETL tool based on Apache Airflow, enabling simplified user experiences through configuration YAML files and SQL scripts for automatic DAG generation. This innovation significantly reduced technical barriers for non-engineering users, enhancing productivity across 75 service accounts.
         - Managed over 3.7k tasks on the platform, streamlining data processing and integration workflows within the company.
-
-        **Data Platform Reliability Team: Data Platform Cost Allocation System**
-        - Initiated and directed the Data Platform Cost Allocation project, designing a system to accurately allocate costs of storage, Kubernetes, computing, and servers to departments utilizing the LINE data platform. This project was crucial for transparently demonstrating usage and costs, supporting budgeting and cost management efforts.
-        - Served as Project Manager&Scrum Master, capturing requirements from diverse stakeholders, leading sub-projects, designing backend data models, and developing insightful reports through Tableau & Notebook for evidence-based chargeback and cost-cutting measures.
-
+        
     - role: Business Intelligence Developer
       time: 2022/01 - 2022/07
       company: Ubisoft, Montreal, Canada
       details: |
-        Worked on the design, development, and maintenance of the enterprise Data Warehouse on Snowflake, facilitating internal reporting and analysis for various domains including Finance, Sales, Production, and Procurement. This role involved enhancing data integration and architectural solutions to support comprehensive analytics.
+        Worked on the design, development, and maintenance of the enterprise Data Warehouse on Snowflake, facilitating internal reporting and analysis for various domains including Finance, Sales, Production, and Procurement. Involved enhancing data integration and architectural solutions to support comprehensive analytics.
         - Conducted impact analysis, participated in the data modeling process, and performed ETL and database performance analyses. Played a key role in identifying and enforcing technical best practices and coding standards within agile teams.
         - Successfully migrated over 200 tables and stored procedures from Teradata to Snowflake, streamlining data management and operational efficiency.
         - Facilitated data integration from diverse source systems (HDFS, AWS, Teradata, Mysql) and external sources like Unity API into Snowflake, enhancing data availability and decision-making capabilities.
