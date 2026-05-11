@@ -93,16 +93,16 @@ experiences:
       time: 2025/06 - Present
       company: CADDi Inc., Tokyo, Japan
       details: |
-        **AI-Powered Data Platform Engineering**
+        **Built Company-Wide AI Data Analysis Platform**
         - Pioneered AI-driven development by integrating Devin (AI software engineer) into the team's workflow, achieving 60%+ AI-generated PR rate for the data engineering team
         - Built DANA, an internal AI data analysis agent (Claude Code plugin) with a tenant-aware dbt metadata architecture, enabling all company employees to conduct high-accuracy autonomous data analysis and generate business reports directly from BigQuery — without SQL knowledge or engineering support
 
-        **Data Governance & Multi-Tenant IAM**
+        **Established Automated Data Governance at Tenant Scale**
         - Designed and implemented fully automated, traceable, security-compliant permission management for 700+ enterprise tenants
         - Resolved GCP's 250-group IAM limit by engineering a parent-group pattern, enabling company-wide tenant access management in a single IAM binding
         - Built confidential column management system with multi-layer PII masking (dl → msk → raw_tenant), enforcing column-level access controls across 700+ tenant views
 
-        **Data Warehouse Architecture & Pipelines**
+        **Architected Multi-Tenant Data Warehouse on BigQuery**
         - Designed and operated multi-tenant data warehouse on BigQuery, managing 8,300+ dbt transformation models across a 4-layer architecture (dl/if/dw/dm)
         - Built Dagster-based orchestration pipelines (5 independent code locations on Cloud Run) for daily ingestion, transformation, and export workflows
         - Managed CDC replication from AlloyDB/PostgreSQL to BigQuery via Datastream, including backfill orchestration and streaming buffer conflict resolution
