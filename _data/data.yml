@@ -111,8 +111,8 @@ experiences:
         - Maintained infrastructure-as-code with Terraform + Terramate for GCP resources (Cloud Run, Cloud Scheduler, IAM, GCS)
 
         **Enabled AI Agent Data Infrastructure**
-        - Engineered embedding pipelines and integrated BigQuery Vector Search to power semantic retrieval for the company's AI agent ecosystem
-        - Implemented BigQuery Graph to enable graph-based analytics, expanding the structured data capabilities available to AI-driven applications
+        - Engineered embedding pipelines integrated with BigQuery Vector Search to enable semantic retrieval across the company's data assets
+        - Built a knowledge graph layer using BigQuery Graph Analytics to model entity relationships across the data fabric, powering graph-traversal-based reasoning for AI agents alongside the semantic layer
 
     - role: Data Engineer
       time: 2022/08 - 2025/05
