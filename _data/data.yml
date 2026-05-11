@@ -72,7 +72,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    A Senior Data Engineer and Tech Lead with 7+ years of experience across Japan and Canada, building modern data platforms at enterprise scale. Specializes in AI-powered data engineering — designing intelligent data agents for company-wide self-service analytics and integrating AI-assisted development workflows (60%+ AI-generated PR rate) to accelerate team velocity. Deep expertise in multi-tenant data warehouse architecture on BigQuery, large-scale dbt pipeline orchestration, and automated security-compliant data governance for 700+ enterprise tenants. Passionate about leveraging AI to make data more accessible, reliable, and impactful across organizations.
+    A Senior Data Engineer and Tech Lead with 7+ years of experience building enterprise data platforms across Japan and Canada. Leads at the intersection of data infrastructure and business strategy — driving the AI transformation of data engineering, enabling organization-wide data democratization, and establishing the governance frameworks that make data both accessible and trustworthy. Brings a product mindset to platform development: turning data from an engineering concern into a company-wide competitive advantage by empowering every stakeholder — from analysts to executives — with reliable, self-service access to insights.
 education:
   title: Education
   info:
