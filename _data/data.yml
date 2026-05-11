@@ -40,7 +40,7 @@ sidebar:
       - item: Infrastructure
         skills: ["Terraform", "Terramate", "Github Action", "Docker", "ArgoCD", "DroneCI"]
       - item: BI Tool
-        skills: ["Tableau", "MicroStrategy", "PowerBI"]
+        skills: ["Tableau", "MicroStrategy", "PowerBI", "Looker Studio"]
 
   languages:
     title: Languages
@@ -72,7 +72,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    A Big Data Engineer and BI Engineer with over 6 years of experience in Japan and Canada, specializing in ETL pipeline construction, DWH/Data Mart development, Data Platform architecture and BI reporting. Skilled in translating complex business needs into scalable data solutions and providing decision-makers with actionable insights A to Z. Adept at data governance, data product lifecycle management, and stakeholder engagement, with a strong focus on aligning data strategies with business goals. 
+    A Senior Data Engineer and Tech Lead with 7+ years of experience across Japan and Canada, building modern data platforms at enterprise scale. Specializes in AI-powered data engineering — designing intelligent data agents for company-wide self-service analytics and integrating AI-assisted development workflows (60%+ AI-generated PR rate) to accelerate team velocity. Deep expertise in multi-tenant data warehouse architecture on BigQuery, large-scale dbt pipeline orchestration, and automated security-compliant data governance for 700+ enterprise tenants. Passionate about leveraging AI to make data more accessible, reliable, and impactful across organizations.
 education:
   title: Education
   info:
