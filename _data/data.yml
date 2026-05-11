@@ -93,11 +93,13 @@ experiences:
       time: 2025/06 - Present
       company: CADDi Inc., Tokyo, Japan
       details: |
+        Drove two foundational transformations at CADDi's data platform: democratizing data access by building an AI-powered analytics agent that enabled every employee to self-serve BigQuery analysis without engineering support, and establishing automated, security-compliant data management for 700+ enterprise tenants — making data simultaneously more accessible and more controlled.
+
         **Built Company-Wide AI Data Analysis Platform**
         - Pioneered AI-driven development by integrating Devin (AI software engineer) into the team's workflow, achieving 60%+ AI-generated PR rate for the data engineering team
         - Built DANA, an internal AI data analysis agent (Claude Code plugin) with a tenant-aware dbt metadata architecture, enabling all company employees to conduct high-accuracy autonomous data analysis and generate business reports directly from BigQuery — without SQL knowledge or engineering support
 
-        **Established Automated Data Governance at Tenant Scale**
+        **Established Automated Data Management at Tenant Scale**
         - Designed and implemented fully automated, traceable, security-compliant permission management for 700+ enterprise tenants
         - Resolved GCP's 250-group IAM limit by engineering a parent-group pattern, enabling company-wide tenant access management in a single IAM binding
         - Built confidential column management system with multi-layer PII masking (dl → msk → raw_tenant), enforcing column-level access controls across 700+ tenant views
