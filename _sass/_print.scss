@@ -20,7 +20,15 @@
         position: static;
         float: right;
         width: 40%;
-        -webkit-print-color-adjust: exact; 
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        color-adjust: exact;
+    }
+
+    .sidebar-wrapper, .sidebar-wrapper * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        color-adjust: exact;
     }
 
     .remove-container.container-block {
