@@ -110,6 +110,10 @@ experiences:
         - Managed CDC replication from AlloyDB/PostgreSQL to BigQuery via Datastream, including backfill orchestration and streaming buffer conflict resolution
         - Maintained infrastructure-as-code with Terraform + Terramate for GCP resources (Cloud Run, Cloud Scheduler, IAM, GCS)
 
+        **Enabled AI Agent Data Infrastructure**
+        - Engineered embedding pipelines and integrated BigQuery Vector Search to power semantic retrieval for the company's AI agent ecosystem
+        - Implemented BigQuery Graph to enable graph-based analytics, expanding the structured data capabilities available to AI-driven applications
+
     - role: Data Engineer
       time: 2022/08 - 2025/05
       company: LY Corporation (ex-Line), Tokyo, Japan
